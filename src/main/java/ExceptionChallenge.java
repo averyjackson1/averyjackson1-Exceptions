@@ -19,7 +19,11 @@ public class ExceptionChallenge {
      * a method thrown to it. A try/catch block would handle the exception within the method.
      *
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
+     * 
      */
-    public void mustThrow(){
+  
+
+    public void mustThrow() throws Exception{
+        throw new Exception("Exception message");
     }
 }
